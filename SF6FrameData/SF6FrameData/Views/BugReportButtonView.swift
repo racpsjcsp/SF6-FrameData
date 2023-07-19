@@ -29,6 +29,7 @@ struct BugReportButtonView_Previews: PreviewProvider {
     }
 }
 
+// custom actions for button
 extension BugReportButtonView {
     func onActiveBugReportTap(action: @escaping (() -> Void)) -> BugReportButtonView {
         BugReportButtonView(canShowMailView: true, onActiveBugReportTap: action)
