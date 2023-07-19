@@ -53,7 +53,7 @@ struct ThrowDriveMovesFrameDataView: View {
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
-                        FrameDataSheetView(dataList: viewModel.throwDriveMoveList, columnTitle: K.Strings.startupTitle, backgroundColor: .yellow)
+                        FrameDataSheetView(dataList: viewModel.throwDriveStartupList, columnTitle: K.Strings.startupTitle, backgroundColor: .yellow)
                             .padding(.leading, 8)
                         
                         FrameDataSheetView(dataList: viewModel.throwDriveActiveList, columnTitle: K.Strings.activeTitle, backgroundColor: .blue)
