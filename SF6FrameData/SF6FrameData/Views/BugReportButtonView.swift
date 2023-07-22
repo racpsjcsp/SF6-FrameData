@@ -17,7 +17,7 @@ struct BugReportButtonView: View {
             canShowMailView ? onActiveBugReportTap?() : onInactiveBugReportTap?()
         }, label: {
             Image(systemName: canShowMailView ? "ladybug.fill" : "ladybug")
-                .foregroundColor(canShowMailView ? .blue : .gray)
+                .foregroundColor(.red)
         })
         .padding()
     }

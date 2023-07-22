@@ -28,6 +28,7 @@
 		46BD47812A66E59800DC7066 /* BugReportButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD47802A66E59800DC7066 /* BugReportButtonView.swift */; };
 		46BD47832A66F72B00DC7066 /* ExtraInfoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD47822A66F72B00DC7066 /* ExtraInfoItemView.swift */; };
 		46BD47852A6701EE00DC7066 /* AppKonstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD47842A6701EE00DC7066 /* AppKonstants.swift */; };
+		46DB84282A6C3A4000525B1E /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DB84272A6C3A4000525B1E /* SuggestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		46BD47802A66E59800DC7066 /* BugReportButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugReportButtonView.swift; sourceTree = "<group>"; };
 		46BD47822A66F72B00DC7066 /* ExtraInfoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraInfoItemView.swift; sourceTree = "<group>"; };
 		46BD47842A6701EE00DC7066 /* AppKonstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKonstants.swift; sourceTree = "<group>"; };
+		46DB84272A6C3A4000525B1E /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,17 +110,18 @@
 			isa = PBXGroup;
 			children = (
 				465F46782A50692F007FF9AA /* CharactersView.swift */,
-				465F467A2A506C3F007FF9AA /* NormalMovesFrameDataView.swift */,
 				46B3D8022A55D0FB009A1A92 /* ColumnTitleView.swift */,
 				46B3D8062A5733D7009A1A92 /* SelectTypeFrameDataView.swift */,
+				465F467A2A506C3F007FF9AA /* NormalMovesFrameDataView.swift */,
 				46B3D80A2A574D12009A1A92 /* SpecialMovesFrameDataView.swift */,
 				46B3D80C2A575E8C009A1A92 /* ThrowDriveMovesFrameDataView.swift */,
-				46B3D8102A586B91009A1A92 /* ExtraInfoView.swift */,
 				46BD47782A660ACC00DC7066 /* FrameDataSheetView.swift */,
+				46B3D8102A586B91009A1A92 /* ExtraInfoView.swift */,
 				46BD477A2A661C7900DC7066 /* NotesView.swift */,
 				46BD477C2A66C99500DC7066 /* MailView.swift */,
 				46BD47802A66E59800DC7066 /* BugReportButtonView.swift */,
 				46BD47822A66F72B00DC7066 /* ExtraInfoItemView.swift */,
+				46DB84272A6C3A4000525B1E /* SuggestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				46BD477B2A661C7900DC7066 /* NotesView.swift in Sources */,
 				46BD477D2A66C99500DC7066 /* MailView.swift in Sources */,
 				46BD47832A66F72B00DC7066 /* ExtraInfoItemView.swift in Sources */,
+				46DB84282A6C3A4000525B1E /* SuggestionView.swift in Sources */,
 				46B3D8112A586B91009A1A92 /* ExtraInfoView.swift in Sources */,
 				46B3D80F2A5855FE009A1A92 /* ExtraInfo.swift in Sources */,
 				46B3D80D2A575E8C009A1A92 /* ThrowDriveMovesFrameDataView.swift in Sources */,
