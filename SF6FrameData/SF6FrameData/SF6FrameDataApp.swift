@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SF6FrameDataApp: App {
+    @StateObject private var store = TipStore()
+
     var body: some Scene {
         WindowGroup {
             CharactersView()
+                .environmentObject(store)
         }
     }
 }

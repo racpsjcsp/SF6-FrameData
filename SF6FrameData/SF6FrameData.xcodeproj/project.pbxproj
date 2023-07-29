@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4625E1552A757F41002C92A3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4625E1542A757F41002C92A3 /* StoreKit.framework */; };
+		4625E1582A7581B1002C92A3 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625E1572A7581B1002C92A3 /* TestView.swift */; };
+		4625E15B2A7586E9002C92A3 /* MyProductsIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625E15A2A7586E9002C92A3 /* MyProductsIdentifiers.swift */; };
+		4625E15D2A758779002C92A3 /* TipStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4625E15C2A758779002C92A3 /* TipStore.swift */; };
+		464F11E82A71732C00E8713A /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F11E72A71732C00E8713A /* TipView.swift */; };
+		464F11EA2A717CD400E8713A /* TipItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F11E92A717CD400E8713A /* TipItemView.swift */; };
+		464F11ED2A71807000E8713A /* ColorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F11EC2A71807000E8713A /* ColorsExtension.swift */; };
 		465F466B2A5068F6007FF9AA /* SF6FrameDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465F466A2A5068F6007FF9AA /* SF6FrameDataApp.swift */; };
 		465F466F2A5068F7007FF9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465F466E2A5068F7007FF9AA /* Assets.xcassets */; };
 		465F46722A5068F7007FF9AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465F46712A5068F7007FF9AA /* Preview Assets.xcassets */; };
@@ -28,10 +35,19 @@
 		46BD47812A66E59800DC7066 /* BugReportButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD47802A66E59800DC7066 /* BugReportButtonView.swift */; };
 		46BD47832A66F72B00DC7066 /* ExtraInfoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD47822A66F72B00DC7066 /* ExtraInfoItemView.swift */; };
 		46BD47852A6701EE00DC7066 /* AppKonstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BD47842A6701EE00DC7066 /* AppKonstants.swift */; };
+		46C29FB12A759525007B9EE2 /* ThanksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C29FB02A759525007B9EE2 /* ThanksView.swift */; };
 		46DB84282A6C3A4000525B1E /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DB84272A6C3A4000525B1E /* SuggestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4625E1542A757F41002C92A3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4625E1562A757FE2002C92A3 /* TipStoreKitConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = TipStoreKitConfiguration.storekit; sourceTree = "<group>"; };
+		4625E1572A7581B1002C92A3 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		4625E15A2A7586E9002C92A3 /* MyProductsIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductsIdentifiers.swift; sourceTree = "<group>"; };
+		4625E15C2A758779002C92A3 /* TipStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipStore.swift; sourceTree = "<group>"; };
+		464F11E72A71732C00E8713A /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
+		464F11E92A717CD400E8713A /* TipItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipItemView.swift; sourceTree = "<group>"; };
+		464F11EC2A71807000E8713A /* ColorsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtension.swift; sourceTree = "<group>"; };
 		465F46672A5068F6007FF9AA /* SF6FrameData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SF6FrameData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465F466A2A5068F6007FF9AA /* SF6FrameDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SF6FrameDataApp.swift; sourceTree = "<group>"; };
 		465F466E2A5068F7007FF9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +70,7 @@
 		46BD47802A66E59800DC7066 /* BugReportButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugReportButtonView.swift; sourceTree = "<group>"; };
 		46BD47822A66F72B00DC7066 /* ExtraInfoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraInfoItemView.swift; sourceTree = "<group>"; };
 		46BD47842A6701EE00DC7066 /* AppKonstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKonstants.swift; sourceTree = "<group>"; };
+		46C29FB02A759525007B9EE2 /* ThanksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksView.swift; sourceTree = "<group>"; };
 		46DB84272A6C3A4000525B1E /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,17 +79,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4625E1552A757F41002C92A3 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4625E1532A757F41002C92A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4625E1542A757F41002C92A3 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4625E1592A7586CA002C92A3 /* StoreKitFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4625E1562A757FE2002C92A3 /* TipStoreKitConfiguration.storekit */,
+				4625E15A2A7586E9002C92A3 /* MyProductsIdentifiers.swift */,
+				4625E15C2A758779002C92A3 /* TipStore.swift */,
+				4625E1572A7581B1002C92A3 /* TestView.swift */,
+			);
+			path = StoreKitFiles;
+			sourceTree = "<group>";
+		};
+		464F11EB2A71802F00E8713A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				464F11EC2A71807000E8713A /* ColorsExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		465F465E2A5068F6007FF9AA = {
 			isa = PBXGroup;
 			children = (
 				465F46692A5068F6007FF9AA /* SF6FrameData */,
 				465F46682A5068F6007FF9AA /* Products */,
+				4625E1532A757F41002C92A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,11 +134,13 @@
 			isa = PBXGroup;
 			children = (
 				465F466A2A5068F6007FF9AA /* SF6FrameDataApp.swift */,
+				4625E1592A7586CA002C92A3 /* StoreKitFiles */,
 				465F466E2A5068F7007FF9AA /* Assets.xcassets */,
 				465F46702A5068F7007FF9AA /* Preview Content */,
 				465F467E2A506E5A007FF9AA /* ViewModels */,
 				465F467D2A506E47007FF9AA /* Models */,
 				465F467C2A506E20007FF9AA /* Views */,
+				464F11EB2A71802F00E8713A /* Extensions */,
 				46BD47862A67093A00DC7066 /* Utils */,
 			);
 			path = SF6FrameData;
@@ -122,6 +170,9 @@
 				46BD47802A66E59800DC7066 /* BugReportButtonView.swift */,
 				46BD47822A66F72B00DC7066 /* ExtraInfoItemView.swift */,
 				46DB84272A6C3A4000525B1E /* SuggestionView.swift */,
+				464F11E72A71732C00E8713A /* TipView.swift */,
+				464F11E92A717CD400E8713A /* TipItemView.swift */,
+				46C29FB02A759525007B9EE2 /* ThanksView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,19 +275,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				46BD47852A6701EE00DC7066 /* AppKonstants.swift in Sources */,
+				4625E15D2A758779002C92A3 /* TipStore.swift in Sources */,
 				46B3D8092A573970009A1A92 /* SelectTypeFrameDataViewModel.swift in Sources */,
 				46B3D80B2A574D12009A1A92 /* SpecialMovesFrameDataView.swift in Sources */,
 				46B3D8032A55D0FB009A1A92 /* ColumnTitleView.swift in Sources */,
+				46C29FB12A759525007B9EE2 /* ThanksView.swift in Sources */,
+				464F11ED2A71807000E8713A /* ColorsExtension.swift in Sources */,
+				4625E15B2A7586E9002C92A3 /* MyProductsIdentifiers.swift in Sources */,
 				465F467B2A506C3F007FF9AA /* NormalMovesFrameDataView.swift in Sources */,
+				464F11EA2A717CD400E8713A /* TipItemView.swift in Sources */,
 				465F46802A506E6B007FF9AA /* Character.swift in Sources */,
 				46BD47792A660ACC00DC7066 /* FrameDataSheetView.swift in Sources */,
 				46BD477B2A661C7900DC7066 /* NotesView.swift in Sources */,
 				46BD477D2A66C99500DC7066 /* MailView.swift in Sources */,
 				46BD47832A66F72B00DC7066 /* ExtraInfoItemView.swift in Sources */,
+				4625E1582A7581B1002C92A3 /* TestView.swift in Sources */,
 				46DB84282A6C3A4000525B1E /* SuggestionView.swift in Sources */,
 				46B3D8112A586B91009A1A92 /* ExtraInfoView.swift in Sources */,
 				46B3D80F2A5855FE009A1A92 /* ExtraInfo.swift in Sources */,
 				46B3D80D2A575E8C009A1A92 /* ThrowDriveMovesFrameDataView.swift in Sources */,
+				464F11E82A71732C00E8713A /* TipView.swift in Sources */,
 				465F466B2A5068F6007FF9AA /* SF6FrameDataApp.swift in Sources */,
 				46B3D8072A5733D7009A1A92 /* SelectTypeFrameDataView.swift in Sources */,
 				46BD47812A66E59800DC7066 /* BugReportButtonView.swift in Sources */,
@@ -385,7 +443,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelplinio.SF6FrameData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -416,7 +474,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelplinio.SF6FrameData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

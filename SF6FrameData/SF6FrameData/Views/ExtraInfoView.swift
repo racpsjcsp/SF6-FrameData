@@ -38,7 +38,6 @@ struct ExtraInfoView: View {
         }
         .buttonStyle(.borderedProminent)
         .controlSize(.large)
-        .background()
     }
 }
 
