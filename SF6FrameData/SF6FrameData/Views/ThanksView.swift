@@ -9,16 +9,19 @@ import SwiftUI
 
 struct ThanksView: View {
     var didTapClose: () -> ()
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
         VStack(spacing: 8) {
             Text("Thank You 💕")
                 .font(.system(.title2, design: .rounded).bold())
                 .multilineTextAlignment(.center)
+                .foregroundColor(colorScheme == .light ? .black : .white)
             
             Text("Your tip is very much appreciated. Will do my best to keep this app neat!")
                 .font(.system(.body, design: .rounded))
                 .multilineTextAlignment(.center)
+                .foregroundColor(colorScheme == .light ? .black : .white)
                 .padding(.bottom, 16)
             
             Button(action: didTapClose) {
@@ -31,7 +34,8 @@ struct ThanksView: View {
             }
         }
         .padding(16)
-        .background(Color(uiColor: .veryLightGray), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+        .background(Color(uiColor: colorScheme == .light ? .veryLightGray : .darkGray),
+                    in: RoundedRectangle(cornerRadius: 10, style: .continuous))
         .padding(.horizontal, 8)
     }
 }

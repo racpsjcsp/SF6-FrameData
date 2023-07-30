@@ -13,6 +13,11 @@ struct CharactersView: View {
     @State private var showThanks = false
     @EnvironmentObject private var store: TipStore
     
+    var gridItems: [GridItem] {
+        let columns = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
+        return columns
+    }
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -38,7 +43,7 @@ struct CharactersView: View {
                     Button(action: {
                         showTips.toggle()
                     }) {
-                        Text("Tip Me")
+                        Text("Tip Jar")
                             .font(.system(size: 20))
                             .foregroundColor(.white)
                             .padding(.horizontal, 100)
@@ -90,11 +95,6 @@ struct CharactersView: View {
             }
             .alert(isPresented: $store.hasError, error: store.error) {}
         }
-    }
-
-    var gridItems: [GridItem] {
-        let columns = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
-        return columns
     }
 }
 
